@@ -1,4 +1,4 @@
-# Assignment 4: Komputer Store App
+# Komputer Store App
 
 An Store application of Tech.
 

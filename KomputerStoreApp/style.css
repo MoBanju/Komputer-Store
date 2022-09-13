@@ -1,0 +1,86 @@
+/* Header */
+header
+{
+    top: 0px;
+    background-color: #333333;
+    color: #ECECEC;
+    padding: 30px;
+}
+
+/* Container */
+div#top-container, div#bottom-container
+{
+    border: 3px solid #F0F0F0;
+    display: flex;
+    margin: 2px;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 30px;
+
+}
+
+div#top-container
+{
+    border: 0px;
+
+}
+
+div.top-sub-container
+{
+    background-color: #FBFBFB;
+    border-radius: 10px;
+    margin: 50px;
+    width: 300px;
+    padding: 10px;
+}
+
+div.info
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+div#bottom-container
+{
+    background-color: #FBFBFB;
+}
+
+/* Buttons */
+button
+{
+    border-radius: 5px;
+}
+
+#get-loan
+{
+    background-color: #4BF0A1;
+    border: 3px solid #37A973;
+}
+
+#repay-loan
+{
+    background-color: #4BF0A1;
+    border: 3px solid #37A973;
+}
+
+
+#bank
+{
+    background-color: #EBEF4D;
+    border: 3px solid #AAAC3A;
+}
+
+#work
+{
+    background-color: #4D70F0;
+    border: 3px solid #3C55B3;
+}
+
+#buy
+{
+    background-color: #4BC9F1;
+    width: 200px;
+    height: 100px;
+
+}

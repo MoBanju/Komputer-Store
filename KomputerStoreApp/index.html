@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Komputer Store</title>
+
+        
+        <link rel="stylesheet" href="style.css">
+        <script type="module" src="app.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Komputer Store</h1>
+        </header>
+        <main>
+            <div id="top-container">
+                <div class="top-sub-container">
+                    <h1>Joe Banker</h1>
+                    <div>
+                        
+                        <div class="info">
+                            <div>Balance</div>
+                            <div id="balance">Number Kr</div>
+                        </div>
+                        <div class="info">
+                            <div id="info-loan" hidden>Loan</div>
+                            <div id="loan" hidden>Number Kr</div>
+                        </div>
+                        
+                    </div>
+                    <button id="get-loan">Get a Loan</button>
+                </div>
+    
+                <div class="top-sub-container">
+                    <h1>Work</h1>
+                    <div class="info">
+                        <div>Pay</div>
+                        <div id="salary">Number Kr</div>
+                    </div>
+                    <button id="bank">Bank</button>
+                    <button id="work">Work</button>
+                    <button id="repay-loan" hidden>Repay Loan</button>
+                </div>
+    
+                <div class="top-sub-container">
+                    <h1>Laptops</h1>
+                    <select name="laptops" id="laptops">
+                        <option value="none" selected disabled hidden>Select a Laptop</option>
+                        <!-- <option value="Laptop id">Laptop Title</option> -->
+                    </select>
+                    <div>
+                        <h3>Features</h3>
+                        <ul id ="laptop-specs"></ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="bottom-container">
+                <img id="laptop-image" width="250px">
+                <div>
+                    <h3 id="laptop-title">Laptop</h3>
+                    <p id="laptop-desc">Description</p>
+                </div>
+                <div>
+                    <h3 id="laptop-price">Kr</h3>
+                    <button id="buy">Buy Now</button>
+                </div>
+                
+            </div>
+        </main>
+        
+    </body>
+</html>

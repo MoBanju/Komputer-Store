@@ -10,4 +10,7 @@ An Store application of Tech.
 
 ## Description
 
-JavaScript Fundamentals.
+A Computer Store
+
+## Link
+https://mobanju.github.io/Komputer-Store/

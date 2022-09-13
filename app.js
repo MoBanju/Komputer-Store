@@ -133,16 +133,27 @@ function getLoanClick()
     if(joeBanker.loan > 0)
     {
         alert("You must finish the remained loan")
-    } else {
-        let amount = prompt("Amount of loan: ")
-        
-        if(amount > joeBanker.balance * 2)
+    }
+    else
+    {
+        let amount = parseInt(prompt("Amount of loan: "))
+        if(isNaN(amount))
         {
-            alert("The loan must be less than double of your balance")
-        } else {
-            joeBanker.getLoan(parseInt(amount))
-            update()
+            alert("It only accepts numbers!")
         }
+        else
+        {
+            if(amount > joeBanker.balance * 2)
+            {
+                alert("The loan must be less than double of your balance")
+            }
+            else
+            {
+                joeBanker.getLoan(amount)
+                update()
+            }
+        }
+        
     }
 }
 
